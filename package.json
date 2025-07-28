@@ -1,0 +1,8 @@
+{
+  "name": "launcher",
+  "private": true,
+  "scripts": {
+    "build": "cd api && npm run build && cd ../app && npm run build",
+    "dev": "cd api && npm run start"
+  }
+}

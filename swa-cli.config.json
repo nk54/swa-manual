@@ -1,0 +1,19 @@
+{
+  "$schema": "https://aka.ms/azure/static-web-apps-cli/schema",
+  "configurations": {
+    "pocempty": {
+      "appLocation": "app",
+      "apiLocation": "api/dist",
+      "outputLocation": "dist",
+      "apiLanguage": "node",
+      "apiVersion": "18",
+      "appBuildCommand": "npm run build",
+      "apiBuildCommand": "npm run build --if-present",
+      "run": "npm run dev",
+      "appDevserverUrl": "http://localhost:4321",
+      "apiDevserverUrl": "http://localhost:7071",
+      "resourceGroup": "swa-poc-rg",
+      "appName": "empty-swa"
+    }
+  }
+}
